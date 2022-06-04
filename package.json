@@ -1,0 +1,30 @@
+{
+  "name": "telisik",
+  "version": "1.0.0",
+  "description": "looking for faults, to correct the truth",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codexv-public/telisik.git"
+  },
+  "keywords": [
+    "validate",
+    "validation",
+    "require",
+    "required"
+  ],
+  "author": "codeXV",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/codexv-public/telisik/issues"
+  },
+  "homepage": "https://github.com/codexv-public/telisik#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
