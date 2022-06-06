@@ -39,3 +39,21 @@ data = [
 ];
 requireds = ['name', 'age'];
 console.log(simple(data, requireds))
+
+
+
+// advance validation
+
+
+const validation = require('./src/core/advance');
+
+
+let advanceData = {
+	// name: 'aka'
+};
+
+let advanceValidate = {
+	name: ['required', 'string']
+}
+
+console.log(validation(advanceData, advanceValidate))
