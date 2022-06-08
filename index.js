@@ -55,13 +55,13 @@ let advanceData = {
 
 let advanceValidate = {
 	name: ['required', 'numeric']
-}
+};
 let advanceMessage = {
 	name: {
 		required: "The field :attribute not avaible",
 		string: "The file :attribute must be string",
 		length: "Max string field name is :length",
 	}
-}
+};
 
-console.log(validation.create(advanceData, advanceValidate, advanceMessage))
+console.log(validation.create(advanceData, advanceValidate, advanceMessage));

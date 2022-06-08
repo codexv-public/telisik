@@ -68,7 +68,7 @@ class Validation {
         return {
             status: status,
             errors: messages,
-        }
+        };
     }
 }
 
